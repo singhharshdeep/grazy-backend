@@ -1,0 +1,23 @@
+GET http://localhost:3000
+
+###
+
+POST http://localhost:3000/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "Harsh Tester",
+    "password": "Macbooks2018"
+}
+
+###
+
+POST http://localhost:3000/register HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "Harshdeep Singh",
+    "email": "harsh@test.com",
+    "username": "Harsh Tester",
+    "password": "Macbooks2018"
+}
